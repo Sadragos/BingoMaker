@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BingoMaker:jar">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="archive" name="BingoMaker.jar">
+      <element id="module-output" name="BingoMaker" />
+    </root>
+  </artifact>
+</component>
