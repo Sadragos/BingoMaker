@@ -60,12 +60,12 @@ public class Start {
                     URI outputPath = outputFile.toURI();
 
                     ArrayList<File> images = new ArrayList<>(files);
-                    Collections.shuffle(images);
 
                     StringBuilder sb = new StringBuilder();
                     sb.append("<html><head><title>Bingo Bingo</title></head><body>");
-                    int img = 0;
                     for (int i = 0; i < getCopies(); i++) {
+                        int img = 0;
+                        Collections.shuffle(images);
                         sb.append("<table style=\"border-collapse: collapse; page-break-after: always;\">");
                         for (int row = 0; row < getRows(); row++) {
                             sb.append("<tr>");
